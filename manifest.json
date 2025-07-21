@@ -8,11 +8,9 @@
         "downloads"
     ],
 
-    "actions": {
+    "action": {
         "default_popup": "popup.html",
-        "default_title": {
-            "message": "Click to download images"
-        }
+        "default_title": "Click to download images"
     },
 
     "background": {
@@ -31,7 +29,4 @@
             "js": ["content.js"]
         }
     ]
-
-
-
 }
