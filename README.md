@@ -96,10 +96,6 @@ imagely/
 ├── popup.js               # Main UI logic
 ├── background.js          # Download and zip logic
 ├── content.js             # Content script (minimal)
-├── icons/                 # Extension icons (optional)
-│   ├── icon-16.png
-│   ├── icon-48.png
-│   └── icon-128.png
 ├── .github/
 │   └── workflows/
 │       └── imagely.yml    # GitHub Actions workflow
