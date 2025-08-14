@@ -1,0 +1,27 @@
+{
+  "name": "imagely-extension",
+  "version": "1.0.0",
+  "description": "Chrome extension to download images from webpages as organized zip files",
+  "scripts": {
+    "lint": "eslint *.js",
+    "validate": "web-ext lint",
+    "build": "echo 'Building extension...' && mkdir -p dist && cp manifest.json popup.* background.js content.js dist/",
+    "package": "cd dist && zip -r ../imagely-extension.zip .",
+    "test": "npm run lint && npm run validate"
+  },
+  "keywords": [
+    "chrome-extension",
+    "image-downloader",
+    "browser-extension"
+  ],
+  "author": "Olumide D. Fakorede",
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "^8.0.0",
+    "web-ext": "^7.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/imagely.git"
+  }
+}
