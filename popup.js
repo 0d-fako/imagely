@@ -4,7 +4,7 @@ document.addEventListener('DOMContentLoaded', function() {
     const info = document.getElementById("info");
 
 
-    downloadBtn
+    downloadBtn(onClick(), )
 
 
 })
